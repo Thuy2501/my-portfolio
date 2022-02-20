@@ -27,7 +27,7 @@ export const ProjectData = [
     tags: ['react', 'framer-motion', '...'],
 
     demo: '',
-    github: 'https://github.com/codebucks27/react-sidebar'
+    github: 'https://github.com/Thuy2501/my-portfolio'
   },
   {
     id: 4,

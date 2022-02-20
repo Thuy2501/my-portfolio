@@ -119,14 +119,12 @@ const MySkillsPage = (props) => {
             <ul>
               <li>Web Design</li>
             </ul>
-            <ul>
-              <li>Mobile App</li>
-            </ul>
           </Description>
           <Description>
             <strong>Tools</strong>
             <ul>
-              <li>Figma</li>
+              <li>Adobe Photoshop</li>
+              <li>Canva</li>
             </ul>
           </Description>
         </Main>
@@ -142,13 +140,12 @@ const MySkillsPage = (props) => {
           <Description>
             <strong>Skills</strong>
             <p>
-              Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Firebase
-              etc.
+              Html, Css, Js, React, Redux,...
             </p>
           </Description>
           <Description>
             <strong>Tools</strong>
-            <p>VScode, Github, Codepen etc.</p>
+            <p>VScode, Github</p>
           </Description>
         </Main>
         <BigTitle text="Skills" top="80%" right="30%" />

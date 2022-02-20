@@ -82,8 +82,8 @@ const ProjectPage = (props) => {
         <AnchorComponent numbers={numbers} />
         <Center>
           <Grid>
-            {ProjectData.map((blog) => {
-              return <ProjectComponent key={blog.id} blog={blog} />
+            {ProjectData.map((project) => {
+              return <ProjectComponent key={project.id} project={project} />
             })}
           </Grid>
         </Center>

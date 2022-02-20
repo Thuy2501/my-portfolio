@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 import { Github } from './AllSvgs'
 
-const Box = styled(motion(NavLink))`
+const Box = styled(motion.div)`
   width: calc(10rem + 15vw);
   text-decoration: none;
   height: 20rem;
@@ -94,7 +94,7 @@ const Footer = styled.footer`
   justify-content: space-between;
 `
 
-const Git = styled.span`
+const Git = styled(NavLink)`
   color: inherit;
   text-decoration: none;
   & > * {
@@ -129,11 +129,11 @@ const Item = {
 }
 
 const ProjectComponent = (props) => {
-  const { name, tags, github, imgSrc, link, demo } = props.blog
+  const { name, tags, imgSrc, demo, github } = props.project
 
   return (
     <Container variants={Item}>
-      <Box target="_blank" to={{ pathname: link }}>
+      <Box>
         <Image img={imgSrc} />
         <Title>{name}</Title>
         <HashTags>
